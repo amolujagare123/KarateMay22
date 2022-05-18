@@ -11,10 +11,16 @@ public class TestRunner {
         return Karate.run("Features/Sample2.feature");
     }*/
 
-    @Test
+ /*   @Test
     public Karate runTest()
     {
         return Karate.run("Features/Reqres.feature");
+    }
+*/
+    @Test
+    public Karate runTest()
+    {
+        return Karate.run("Features/DeckofCards.feature");
     }
 
    /* @Test
